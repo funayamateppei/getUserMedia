@@ -31,7 +31,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <video ref={videoRef} autoPlay></video>
+                <video ref={videoRef} autoPlay />
 
                 <MUI.Stack direction="row" gap={1}>
                     <MUI.Button variant="contained" onClick={handleStart}>
